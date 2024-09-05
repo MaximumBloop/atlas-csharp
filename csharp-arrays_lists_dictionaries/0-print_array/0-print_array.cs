@@ -14,8 +14,10 @@ class Array
         {
             array[i] = i;
         }
-
-        Console.Write("0");
+        if (size > 0)
+        {
+            Console.Write("0");
+        }
         for (int i = 1; i < size; i++)
         {
             Console.Write(" {0}", array[i]);
