@@ -10,8 +10,8 @@ class List
             Console.WriteLine("List is empty");
             return -1;
         }
-        int max = 0;
-        for (int i = 0; i < myList.Count; i++)
+        int max = myList[0];
+        for (int i = 1; i < myList.Count; i++)
         {
             if (myList[i] > max)
             {
