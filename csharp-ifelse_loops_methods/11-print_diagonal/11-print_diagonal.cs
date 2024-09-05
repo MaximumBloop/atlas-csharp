@@ -11,7 +11,7 @@ class Line
             {
                 str += ' ';
             }
-            Console.WriteLine("{0}\\$", str);
+            Console.WriteLine("{0}\\", str);
         }
         Console.Write("\n");
     }
