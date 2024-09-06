@@ -15,6 +15,5 @@ class Dictionary
         {
             Console.WriteLine("{0}: {1}", key, myDict[key]);
         }
-        Console.Write("\n");
     }
 }
