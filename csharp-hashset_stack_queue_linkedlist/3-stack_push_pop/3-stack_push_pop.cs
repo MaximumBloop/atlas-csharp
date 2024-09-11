@@ -13,7 +13,7 @@ class MyStack
         {
             Console.WriteLine("Stack is empty");
         }
-        Console.WriteLine("Stack contains {0}: {1}", search, aStack.Contains(search));
+        Console.WriteLine("Stack contains \"{0}\": {1}", search, aStack.Contains(search));
         if (aStack.Contains(search))
         {
             // this is literally impossible to do without multiple pop calls or some stupid workaround. So, here's my stupid workaround!
