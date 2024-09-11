@@ -16,7 +16,7 @@ class MyStack
         Console.WriteLine("Stack contains {0}: {1}", search, aStack.Contains(search));
         if (aStack.Contains(search))
         {
-            // this is literally impossible to do without multiple .Pop() calls or some stupid workaround. So, here's my stupid workaround!
+            // this is literally impossible to do without multiple pop calls or some stupid workaround. So, here's my stupid workaround!
             Action popAction = () => aStack.Pop();
             while (aStack.Peek() != search)
             {
