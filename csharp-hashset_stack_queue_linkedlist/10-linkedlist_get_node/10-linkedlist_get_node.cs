@@ -8,11 +8,11 @@ class LList
         LinkedListNode<int> current = myLList.First;
         for (int i = 0; i < myLList.Count && i < n; i++)
         {
+            current = current.Next;
             if (current == null)
             {
                 return 0;
             }
-            current = current.Next;
         }
         return current.Value;
     }
